@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LayerOne from './Component/LayerOne';
+import TextBoxOne from './Component/TextBoxOne';
+import LayerTwo from './Component/LayerTwo';
+import TextBoxTwo from './Component/TextBoxTwo';
+import LayerThree from './Component/LayerThree';
+import TextBoxThree from './Component/TextBoxThree';
+import LayerFour from './Component/LayerFour';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <LayerOne/>
+     <TextBoxOne/>
+     <LayerTwo/>
+     <TextBoxTwo/>
+     <LayerThree/>
+     <TextBoxThree/>
+     <LayerFour/>
     </div>
   );
 }
 
 export default App;
+
